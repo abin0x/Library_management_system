@@ -14,7 +14,7 @@ class CustomUser(AbstractUser):
     # profile_image = models.ImageField(upload_to='profile_images/', blank=True, null=True)
     profile_image = models.CharField(max_length=255, blank=True, null=True)
     date_joined = models.DateTimeField(auto_now_add=True)
-    user_type = models.CharField(max_length=20, choices=USER_TYPE_CHOICES, default='member')
+    user_type = models.CharField(max_length=20, choices=USER_TYPE_CHOICES, default='librarian')
 
     def save(self, *args, **kwargs):
         # Only generate employee ID if the user is a librarian and the employee ID is not already set
