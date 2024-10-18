@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'management',
     'users',
 ]
+LOGIN_URL="http://127.0.0.1:5500/login_register.html"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -110,6 +111,15 @@ DATABASES = {
 }
 
 
+
+CSRF_TRUSTED_ORIGINS = [
+    # 'http://127.0.0.1:5501', 
+    # 'http://127.0.0.1:8000', 
+    # 'http://127.0.0.1:5500',
+    # 'https://online-school-2ldr.onrender.com,'
+    # 'https://onlineschool-im71.onrender.com',
+    'http://*.127.0.0.1'  
+]
 
 
 
