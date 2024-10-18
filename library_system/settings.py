@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'users',
 ]
 LOGIN_URL="http://127.0.0.1:5500/login_register.html"
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
