@@ -10,9 +10,9 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co.com/cYHr3Zz/47c6cfa6-b0b6-4c42-a31a-393add2c4764.png" alt="project-screenshot" width="300" height="300/">
+<img src="https://i.ibb.co.com/cYHr3Zz/47c6cfa6-b0b6-4c42-a31a-393add2c4764.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co.com/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png" alt="project-screenshot" width="300" height="300/">
+<img src="https://i.ibb.co.com/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png" alt="project-screenshot" width="400" height="400/">
 
 <img src="https://i.ibb.co.com/25DPLbQ/888fb23c-bd3b-446f-977c-9c981a0608cf.png" alt="project-screenshot" width="400" height="400/">
 
