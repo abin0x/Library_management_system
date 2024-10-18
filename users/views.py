@@ -77,7 +77,7 @@ class UserLoginApiView(APIView):
                 "token": token.key,
                 "username": user.username,
                 "user_type": user.user_type,
-                "profile_image": user.profile_image.url if user.profile_image else None,
+                "profile_image": user.profile_image if user.profile_image else None,
             }, status=status.HTTP_200_OK)
 
         return Response({"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED)
