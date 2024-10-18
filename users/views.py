@@ -27,7 +27,7 @@ class UserRegistrationAPIView(APIView):
             # Generate email confirmation token
             token = default_token_generator.make_token(user)
             uid = urlsafe_base64_encode(force_bytes(user.pk))
-            confirm_link = f"http://127.0.0.1:8000/api/users/activate/{uid}/{token}/"
+            confirm_link = f"https://library-management-system-oh5k.vercel.app/api/users/activate/{uid}/{token}/"
             email_subject = "Confirm Your Email"
 
             # Select email template based on user type
